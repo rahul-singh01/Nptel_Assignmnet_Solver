@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 from Image_to_text import extractText
 
-genai.configure(api_key="AIzaSyDT-7SomaFtONldylH7-RDt4Pfx5_efrXo")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
